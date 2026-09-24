@@ -3,10 +3,8 @@
 const wall = document.querySelector('.wall');
 const spider = document.querySelector('.spider');
 
-// spider.style.width = '30px';
-
-const htmlWidth = wall.offsetWidth;
-const htmlHeight = wall.offsetHeight;
+const htmlWidth = wall.clientWidth;
+const htmlHeight = wall.clientHeight;
 
 
 wall.style.position = 'relative'
@@ -23,4 +21,3 @@ const leftPosition = (htmlWidth - spiderWidthSet) / 2;
 
 spider.style.top = `${topPosition}px`;
 spider.style.left = `${leftPosition}px`;
-
