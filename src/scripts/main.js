@@ -14,8 +14,8 @@ spider.style.position = 'absolute'
 const spiderWidthSet = spider.offsetWidth;
 const spiderHeightSet = spider.offsetHeight;
 
-const topPosition = (htmlHeight - spiderWidthSet) / 2;
-const leftPosition = (htmlWidth - spiderHeightSet) / 2;
+const topPosition = (htmlHeight - spiderHeightSet) / 2;
+const leftPosition = (htmlWidth - spiderWidthSet) / 2;
 
 
 spider.style.top = `${topPosition}px`;
